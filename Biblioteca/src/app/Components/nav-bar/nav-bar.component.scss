@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+.navbar-items {
+    display: flex;
+  }
+  
+  
+.navbar-nav li {
+    margin-right: 1rem;
+  }
+
+  .navbar-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+    transition: .5s;
+  }
+
+  .navbar-nav a:hover {
+    color: black;
+    transition: .5s;
+  }
