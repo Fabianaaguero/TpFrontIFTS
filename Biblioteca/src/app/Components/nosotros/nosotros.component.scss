@@ -15,11 +15,16 @@
 }
 
 .texto {
+  text-align: center;
   font-family: 'Arial', sans-serif; /* Tipo de fuente */
   font-size: 25px; /* Tamaño de fuente */
   line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
   color: #333; /* Color del texto */
+  width: 90%;
   margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .box {
@@ -31,29 +36,24 @@
 
 .elemento{
   width: 15%;
-  line-height:2rem;
+  line-height: 2rem;
   text-align: center;
   border-style: inset;
-  border-radius: 2cap;
-  background-color: rgb(240, 127, 255);
+  border-radius: 1cap;
+  background-color: rgb(178, 221, 153);
   }
 
 .elemento:first-child{
-  line-height:4rem;
+  line-height: 4rem;
 }
 
 .elemento:nth-child(3){
-  font-size:1rem;
-  line-height:1.2rem;
-}
-
-.elemento:nth-child(6){
-  font-size:3rem;
-  line-height:5rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 .elemento:last-child{
-  line-height:3rem;
+  line-height: 4rem;
 }
 
 .foto {
