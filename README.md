@@ -29,3 +29,7 @@ Cristian Mauro FABREGAT (cmfabregat@gmail.com)
 # Secciones en las que vamos a dividir el proyecto y que parte va a hacer cada uno.
 #
 ##
+
+ABM (Editar, Guardar) - Fabiana, Sebastian
+Formulario, Boton, Registro - Hernan, Joiskeiner
+Sobre Nosotros - Cristian
