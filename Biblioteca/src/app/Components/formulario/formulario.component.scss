@@ -1,0 +1,66 @@
+
+.Form-box{
+    background-color: #2d2b2b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+
+.Item > label{
+   display: block;
+   width: 100%; 
+   margin-bottom: 8px;
+   color: #fff;
+   margin-top: 5px;
+}
+
+.check > label{
+    display: block;
+    width: 100%; 
+    margin-bottom: 8px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.Item > input{
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    background-color: #2d2b2b ;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid  rgb(2,29,78) ;
+}
+
+.check > input  , p{
+    color: #fff;
+    display: inline;
+    margin: 7px;
+}
+
+
+
+button{
+    display: inline-block;
+    width: 40%;
+    font-size: .9em;
+    padding: 3% 1%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: #eaeaea;
+    font-weight: 700;
+    align-items: center;
+    margin-right: 7px;
+    margin-top: 12px;
+}
