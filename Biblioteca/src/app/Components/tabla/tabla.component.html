@@ -1,4 +1,5 @@
 <p>tabla works!</p>
+<h1>Biblioteca</h1>
 <table class="table table-hover">
     <thead>
       <tr>
@@ -12,94 +13,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr class="table-light">
-        <th scope="row">¡Cómo salir del pozo!</th>
-        <td><img src="/src/assets/img/salir del pozo.jpg" alt="¡salir del pozo!"></td>
-        <td>Andrés Oppenheimer</td>
-        <td>Sociología Urbana</td>
-        <td>2023</td>
-        <td>-</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr>
-        <th scope="row">Hábitos Atómicos</th>
-        <td>Column content</td>
-        <td>James Clear</td>
-        <td>Motivación Autoayuda</td>
-        <td>2019</td>
-        <td>★★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-success">
-        <th scope="row">La revolución de la glucosa</th>
-        <td>Column content</td>
-        <td>Jessie Inchauspé</td>
-        <td>Dietas para Perder Peso</td>
-        <td>2022</td>
-        <td>★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-success">
-        <th scope="row">La Biblioteca De La Medianoche</th>
-        <td>Column content</td>
-        <td>Matt Haig</td>
-        <td>Ficción Literaria</td>
-        <td>2021</td>
-        <td>★★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-success">
-        <th scope="row">La mujer que soy</th>
-        <td>Column content</td>
-        <td>Britney Spears</td>
-        <td>Biografías de Mujeres</td>
-        <td>2023</td>
-        <td>-</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-ligth">
-        <th scope="row">La Bailarina De AUSCHWITZ</th>
-        <td>Column content</td>
-        <td>EDITH EGER</td>
-        <td>Historia del Holocausto</td>
-        <td>2018</td>
-        <td>★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-dark">
-        <th scope="row">Messi</th>
-        <td>Column content</td>
-        <td>Guillem Balague</td>
-        <td>Deporte</td>
-        <td>2023</td>
-        <td>★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-light">
-        <th scope="row">BusinessCoach</th>
-        <td>Imagen</td>
-        <td>Rodrigo Coutiño</td>
-        <td>Desarrollo Empresarial y Capacidad Empresarial</td>
-        <td>2023</td>
-        <td>★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-light">
-        <th scope="row">los 7 habitos de la gente altamente efectiva</th>
-        <td><img src="/src/assets/img/Los 7 habitos de la gente altamente efectiva.webp" alt="hola"></td>
-        <td>Stephen Covey</td>
-        <td>Autoayuda</td>
-        <td>1989</td>
-        <td>★★★</td>
-        <td><button>Descargar</button></td>
-      </tr>
-      <tr class="table-light">
-        <th scope="row">Amigos, amantes y aquello tan terrible</th>
-        <td>Column content</td>
-        <td>Matthew Perry</td>
-        <td>Bibliografia</td>
-        <td>2022</td>
-        <td>★★★★</td>
+      <tr *ngFor="let libro of libros" class="table-dark">
+        <th scope="row">{{libro.nombre}}</th>
+        <td><img [src]="libro.imagen" alt="{{libro.nombre}}" width="140px"></td>
+        <td>{{libro.autor}}</td>
+        <td>{{libro.genero}}</td>
+        <td>{{libro.anio}}</td>
+        <td>{{libro.ranking}}</td>
         <td><button>Descargar</button></td>
       </tr>
     </tbody>
