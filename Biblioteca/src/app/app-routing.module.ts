@@ -4,14 +4,14 @@ import { HomeComponent } from './Components/home/home.component';
 import { TablaComponent } from './Components/tabla/tabla.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { RegistroComponent } from './pages/registro/registro.component';
-import { FormularioComponent } from './Components/formulario/formulario.component';
+import { SuccesComponent} from "../app/Components/succes/succes.component"
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'tabla', component: TablaComponent },
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'registro', component: RegistroComponent },
-  { path: 'formulario', component: FormularioComponent}
+  { path: 'RegistroExitoso', component:SuccesComponent }
 ];
 
 @NgModule({
