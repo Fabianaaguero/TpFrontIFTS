@@ -9,6 +9,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { TablaComponent } from './Components/tabla/tabla.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { FormularioComponent } from './Components/formulario/formulario.component';
+import { SuccesComponent } from './Components/succes/succes.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormularioComponent } from './Components/formulario/formulario.componen
     HomeComponent,
     TablaComponent,
     RegistroComponent,
-    FormularioComponent
+    FormularioComponent,
+    SuccesComponent
   ],
   imports: [
     BrowserModule,
