@@ -36,7 +36,7 @@
     color: #fff;
     outline: none;
     border: none;
-    border-bottom: 3px solid  rgb(2,29,78) ;
+    border-bottom: 3px solid #b3b3b3  ;    
 }
 
 .check > input  , p{
@@ -51,7 +51,7 @@ button{
     display: inline-block;
     width: 40%;
     font-size: .9em;
-    padding: 3% 1%;
+    padding: 3% 0% 3% 0%;
     border: none;
     outline: none;
     border-radius: 0.4rem;
@@ -61,9 +61,47 @@ button{
     color: #eaeaea;
     font-weight: 700;
     align-items: center;
-    margin-right: 7px;
+    margin-right: 55px;
     margin-top: 12px;
+    margin-left: 21px;
 }
+
+@media (max-width: 400px){
+    .Form-box{
+        width: 300px;
+    }
+    button{
+        margin-left: -10px;
+        margin-right: 36px;
+    }
+  }
+  @media (min-width: 400px){
+    .Form-box{
+        width: 400px;
+    }
+    button{
+        margin-left: -10px;
+        margin-right: 36px;
+    }
+  }
+  @media (min-width: 900px){
+    .Form-box{
+        width: 800px;
+    }
+    button{
+        margin-left: 15px;
+        margin-right: 60px;
+    }
+  }
+  @media (min-width: 1000px){
+    .Form-box{
+        width: 900px;
+    }
+    button{
+        margin-left: 15px;
+        margin-right: 63px;
+    }
+  }
 
 /* ancho de 280  270
              900 700
