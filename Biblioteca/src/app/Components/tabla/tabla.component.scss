@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin: 2rem 0;
+}
+
+.descr {
+    margin: 0 2.5rem 3rem;
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+table th,
+table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: .8em;
+    //padding: 0;
+}
+
+table tr{
+    padding:5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover a {
+    color: white;
+}
+
+
+
+
+
