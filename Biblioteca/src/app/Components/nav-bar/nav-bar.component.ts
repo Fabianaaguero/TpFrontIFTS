@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+  botton :boolean = false;
+
+menu(event : Event) : void  {
+
+     this.botton = !this.botton;
+     console.log(this.botton);
+ }
+
 }

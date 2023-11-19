@@ -1,1 +1,29 @@
-<p>tabla works!</p>
+<h1>Library DG</h1>
+<p class="descr">¡Bienvenidos y bienvenidas a nuestro rincón literario digital, donde las palabras cobran vida y las historias se despliegan en cada página! Sumérgete en el fascinante universo de nuestra librería digital, donde la magia de la lectura se encuentra con la comodidad del mundo virtual. Explora un vasto repertorio de libros electrónicos cuidadosamente seleccionados, navega por géneros que despiertan la imaginación, descubre autores emergentes y deja que cada click te lleve a nuevas aventuras. En nuestra librería digital, cada obra es una puerta a mundos inexplorados. Únete a nosotros mientras celebramos la maravilla de la palabra escrita y creamos juntos un viaje literario único. Tu próxima gran lectura te espera, ¡explora y sumérgete en la magia de nuestra librería digital hoy mismo!</p>
+<div class="table-responsive">
+<table class="table table-hover table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Titulo</th>
+        <th scope="col">Imagen</th>
+        <th scope="col">Autor</th>
+        <th scope="col">genero</th>
+        <th scope="col">Año de lanzamiento</th>
+        <th scope="col">Ranking</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let libro of libros"  class="table-dark">
+        <th scope="row">{{libro.nombre}}</th>
+        <td><img [src]="libro.imagen" alt="{{libro.nombre}}" width="90px"></td>
+        <td>{{libro.autor}}</td>
+        <td>{{libro.genero}}</td>
+        <td>{{libro.anio}}</td>
+        <td>{{libro.ranking}}</td>
+        <td><a href="/registro"><button type="button" class="btn btn-sm btn-light btn-outline-primary">Editar</button></a></td>
+        <td><a href="/RegistroExitoso"><button type="button" class="btn btn-sm btn-light btn-outline-primary">Eliminar</button></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

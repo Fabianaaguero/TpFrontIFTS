@@ -5,10 +5,6 @@
     padding: 1rem;
   }
 
-.navbar-items {
-    display: flex;
-  }
-  
   
 .navbar-nav li {
     margin-right: 1rem;
@@ -22,4 +18,8 @@
   .navbar-nav a:hover {
     color: black;
     transition: .5s;
+  }
+
+  #navbarColor01 {
+    justify-content: end;
   }
