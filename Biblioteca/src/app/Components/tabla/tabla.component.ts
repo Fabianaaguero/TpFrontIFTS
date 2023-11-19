@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Libro } from 'src/Model/library.model';
 
 @Component({
   selector: 'app-tabla',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./tabla.component.scss']
 })
 export class TablaComponent {
-  libros=[
+  libros: Libro[] = [
     {
       nombre:"¡CÓMO SALIR DEL POZO!",
       imagen:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNaeNAQYsRwYePT9dUL6l-BvMuZzFD6-urqYRfGa6WC1v--JzRJEZ-Jnm1toqxbVIyBk&usqp=CAU',
@@ -76,7 +77,7 @@ export class TablaComponent {
       imagen:"https://images.cdn1.buscalibre.com/fit-in/360x360/df/a8/69ac702996e6dcba64e483fad6050942.jpg",
       autor:"Stephen Covey",
       genero:"Autoayuda",
-      aanio:1989,
+      anio:1989,
       ranking:"★★★★",
     },
     {
@@ -84,7 +85,7 @@ export class TablaComponent {
       imagen:"https://images.cdn1.buscalibre.com/fit-in/360x360/88/04/8804428da38d155918fb4556a49965f0.jpg",
       autor:"Matthew Perry",
       genero:"Bibliografia",
-      Aanio:2022,
+      anio:2022,
       ranking:"★★★★",
     }
   ]

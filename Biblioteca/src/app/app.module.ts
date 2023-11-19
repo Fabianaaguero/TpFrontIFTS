@@ -8,7 +8,7 @@ import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { HomeComponent } from './Components/home/home.component';
 import { TablaComponent } from './Components/tabla/tabla.component';
 import { RegistroComponent } from './Components/registro/registro.component';
-import { EliminadoComponent } from './Componentes/eliminado/eliminado.component';
+import { EliminadoComponent } from './Components/eliminado/eliminado.component';
 
 @NgModule({
   declarations: [
