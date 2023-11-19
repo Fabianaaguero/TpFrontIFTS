@@ -7,7 +7,6 @@ import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { NosotrosComponent } from './Components/nosotros/nosotros.component';
 import { HomeComponent } from './Components/home/home.component';
 import { TablaComponent } from './Components/tabla/tabla.component';
-import { EliminadoComponent } from './Components/eliminado/eliminado.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { FormularioComponent } from './Components/formulario/formulario.component';
 import { SuccesComponent } from './Components/succes/succes.component';
@@ -20,7 +19,6 @@ import { SuccesComponent } from './Components/succes/succes.component';
     HomeComponent,
     TablaComponent,
     RegistroComponent,
-    EliminadoComponent,
     FormularioComponent,
     SuccesComponent
   ],

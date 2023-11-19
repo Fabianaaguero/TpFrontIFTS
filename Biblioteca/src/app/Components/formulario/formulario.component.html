@@ -11,32 +11,28 @@
            
         </div>
         <div class="Item">
-            <label for="FechaLanzamiento"> Fecha de Lanzamiento </label>
-            <input type="date"  name="FechaLanzamiento" id="FechaLanzamiento" required>
+            <label for="Popularidad"> Popularidad </label>
+            <input type="number" min="0" max="5" name="Popularidad" id="Popularidad" required>
+           
         </div>
         <div class="Item">
-            <label for="CantPaginas"> Cantidad  de paginas del Libro </label>
-            <input type="text" name="CantPaginas" id="CantPaginas" required>
-            
+            <label for="FechaLanzamiento"> Fecha de Lanzamiento </label>
+            <input type="date"  name="FechaLanzamiento" id="FechaLanzamiento" required>
         </div>
         <div class="Item">
             <label for="Genero"> Genero </label>
             <input type="text" name="Genero" id="Genero" required>
         </div>
-        <div class="check">
-            <label for="AptoTodoPublico"> Apto a todo publico  </label>
-            <input type="checkbox" name="AptoTodoPublico" id="AptoTodoPublico"value="true"> <p>Verdadero </p>
-            <input type="checkbox" name="AptoTodoPublico"id="AptoTodoPublico"  value="false"> <p>Falso</p>
-        </div>
-        <div class="check">
-            <label for="Disponible"> Disponible  </label>
-            <input type="checkbox" name="Disponible" id="Disponible" value="true"> <p>Verdadero </p>
-            <input type="checkbox" name="Disponible" id="Disponible"  value="false"> <p>Falso</p>
+        <div class="Item">
+            <label for="Img"> Subir imagen del libro </label>
+            <input type="file" name="Img" id="Img" required>
+           
         </div>
         <div>
             <button type="submit" value="submit"  [routerLink]="['/RegistroExitoso']"> Agregar </button>
             <button type="submit" value="submit"  [routerLink]="['/home']" > Volver </button>
         </div>
+
 
     </form>
 </div>

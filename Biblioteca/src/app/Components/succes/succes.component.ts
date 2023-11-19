@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-succes',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./succes.component.scss']
 })
 export class SuccesComponent {
+
+  //@Input() palabra:String='';
 
 }
