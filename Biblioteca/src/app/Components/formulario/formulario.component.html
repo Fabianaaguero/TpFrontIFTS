@@ -1,0 +1,42 @@
+<div class="Form-box">
+    <form>
+        <div class="Item">
+            <label for="Titulo"> Titulo </label>
+            <input type="text" name="Titulo" id="Titulo" required>
+            
+        </div>
+        <div class="Item">
+            <label for="Autor"> Autor </label>
+            <input type="text" name="Autor" id="Autor" required>
+           
+        </div>
+        <div class="Item">
+            <label for="FechaLanzamiento"> Fecha de Lanzamiento </label>
+            <input type="date"  name="FechaLanzamiento" id="FechaLanzamiento" required>
+        </div>
+        <div class="Item">
+            <label for="CantPaginas"> Cantidad  de paginas del Libro </label>
+            <input type="text" name="CantPaginas" id="CantPaginas" required>
+            
+        </div>
+        <div class="Item">
+            <label for="Genero"> Genero </label>
+            <input type="text" name="Genero" id="Genero" required>
+        </div>
+        <div class="check">
+            <label for="AptoTodoPublico"> Apto a todo publico  </label>
+            <input type="checkbox" name="AptoTodoPublico" id="AptoTodoPublico"value="true"> <p>Verdadero </p>
+            <input type="checkbox" name="AptoTodoPublico"id="AptoTodoPublico"  value="false"> <p>Falso</p>
+        </div>
+        <div class="check">
+            <label for="Disponible"> Disponible  </label>
+            <input type="checkbox" name="Disponible" id="Disponible" value="true"> <p>Verdadero </p>
+            <input type="checkbox" name="Disponible" id="Disponible"  value="false"> <p>Falso</p>
+        </div>
+        <div>
+            <button type="submit" value="submit"  [routerLink]="['/RegistroExitoso']"> Agregar </button>
+            <button type="submit" value="submit"  [routerLink]="['/home']" > Volver </button>
+        </div>
+
+    </form>
+</div>
