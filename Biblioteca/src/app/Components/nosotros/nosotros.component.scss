@@ -1,6 +1,6 @@
 
 .fondo {
-  background-color: rgb(139, 102, 34);
+  background-color: rgb(90, 139, 34);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -19,7 +19,7 @@
   font-family: 'Arial', sans-serif; /* Tipo de fuente */
   font-size: 25px; /* Tamaño de fuente */
   line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
-  color: #333; /* Color del texto */
+  color: #2522e6; /* Color del texto */
   width: 90%;
   margin-bottom: 15px;
   margin-left: 20px;
@@ -32,6 +32,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    align-items: center;
   }
 
 .elemento{
@@ -42,19 +43,6 @@
   border-radius: 1cap;
   background-color: rgb(178, 221, 153);
   }
-
-.elemento:first-child{
-  line-height: 4rem;
-}
-
-.elemento:nth-child(3){
-  font-size: 1rem;
-  line-height: 1.2rem;
-}
-
-.elemento:last-child{
-  line-height: 4rem;
-}
 
 .foto {
   width: 100px;
