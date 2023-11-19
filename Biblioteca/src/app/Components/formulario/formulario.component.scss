@@ -1,0 +1,110 @@
+/* moblie first*/
+.Form-box{
+    background-color: #2d2b2b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+
+.Item > label{
+   display: block;
+   width: 100%; 
+   margin-bottom: 8px;
+   color: #fff;
+   margin-top: 5px;
+}
+
+.check > label{
+    display: block;
+    width: 100%; 
+    margin-bottom: 8px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.Item > input{
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    background-color: #2d2b2b ;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #b3b3b3  ;    
+}
+
+.check > input  , p{
+    color: #fff;
+    display: inline;
+    margin: 7px;
+}
+
+
+
+button{
+    display: inline-block;
+    width: 40%;
+    font-size: .9em;
+    padding: 3% 0% 3% 0%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: #eaeaea;
+    font-weight: 700;
+    align-items: center;
+    margin-right: 55px;
+    margin-top: 12px;
+    margin-left: 21px;
+}
+
+@media (max-width: 400px){
+    .Form-box{
+        width: 300px;
+    }
+    button{
+        margin-left: -10px;
+        margin-right: 36px;
+    }
+  }
+  @media (min-width: 400px){
+    .Form-box{
+        width: 400px;
+    }
+    button{
+        margin-left: -10px;
+        margin-right: 36px;
+    }
+  }
+  @media (min-width: 900px){
+    .Form-box{
+        width: 800px;
+    }
+    button{
+        margin-left: 15px;
+        margin-right: 60px;
+    }
+  }
+  @media (min-width: 1000px){
+    .Form-box{
+        width: 900px;
+    }
+    button{
+        margin-left: 15px;
+        margin-right: 63px;
+        padding: 1.8% 1%;
+    }
+  }
+
+/* ancho de 280  270
+             900 700
+            1200  800 y  padding: 1% 1%;
+ formulario  */
