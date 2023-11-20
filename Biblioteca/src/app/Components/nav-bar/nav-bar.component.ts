@@ -12,7 +12,7 @@ export class NavBarComponent {
 menu(event : Event) : void  {
 
      this.botton = !this.botton;
-     console.log(this.botton);
+    //  console.log(this.botton);
  }
 
 }
