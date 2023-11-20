@@ -30,6 +30,7 @@ Cristian Mauro FABREGAT (cmfabregat@gmail.com)
 #
 ##
 
-ABM (Editar, Guardar) - Fabiana, Sebastian<br />
-Formulario, Boton, Registro - Hernan, Joiskeiner<br />
-Sobre Nosotros - Cristian<br />
+
+ABM (Editar, Guardar) - Fabiana, Sebastian
+Formulario, Boton, Registro - Hernan, Joiskeiner
+Sobre Nosotros - Cristian
